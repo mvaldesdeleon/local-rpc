@@ -1,0 +1,21 @@
+{
+  "name": "local-rpc",
+  "version": "0.0.1",
+  "description": "Proxy-based local-rpc (aka runtime dependency injection)",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "repository": "mvaldesdeleon/local-rpc",
+  "keywords": [
+    "rpc",
+    "local",
+    "dependency",
+    "injection",
+    "runtime",
+    "proxy"
+  ],
+  "author": "Martin Valdes de Leon <m.valdesdeleon@gmail.com>",
+  "license": "MIT"
+}
