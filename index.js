@@ -1,11 +1,13 @@
-let fn = () => void 0;
+let fn = () => undefined;
 
 const handler = {
     get(propsFn, prop) {
-        return new Proxy(() => propsFn().concat(prop), handler);
+        const props = propsFn();
+
+        return new Proxy(() => props.concat(prop), handler);
     },
     apply(propsFn, thisArg, args) {
-		const props = propsFn();
+        const props = propsFn();
 
         return props.length ? fn(...props, ...args) : (fn = args[0], true);
     }

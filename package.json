@@ -1,11 +1,14 @@
 {
   "name": "local-rpc",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Proxy-based local-rpc (aka runtime dependency injection)",
   "main": "index.js",
-  "dependencies": {
+  "scripts": {
+      "lint": "eslint ."
   },
+  "dependencies": {},
   "devDependencies": {
+    "eslint": "^5.2.0"
   },
   "repository": "mvaldesdeleon/local-rpc",
   "keywords": [
