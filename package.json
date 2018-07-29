@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Proxy-based local-rpc (aka runtime dependency injection)",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
       "lint": "eslint ."
   },
